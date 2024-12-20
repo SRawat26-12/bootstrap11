@@ -1,5 +1,64 @@
-h1{
-    font-size: 40px;
-    color:red;
-    background-color: yellow;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    height: 80px;
+    
+}
+.logo img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap:70px;
+}
+.menu li:hover{
+    text-decoration: underline;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu a li{
+    font-size: 18px;
+}
+.header img{
+    width:100%;
+    height:400px
+}
+.h{
+    display:flex;
+    gap:10px;
+    
+}
+aside{
+    background-color:rgb(85, 0, 255);
+    height: 400px;
+    
+}
+section{
+    background-color: rgb(196, 224, 255);
+}
+.footer{
+    display:flex;
+    justify-content:space-around;
+    background-color: rgb(75, 73, 73);
+}
+.footer ul li{
+    color:white;
+    list-style-type: none;
+    font-size: 20px;
+}
+.footer ul{
+    padding:30px;
 }
